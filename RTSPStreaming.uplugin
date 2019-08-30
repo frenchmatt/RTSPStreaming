@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "RTSPStreaming",
+	"Description": "Support for streaming RTSP from UE4",
+	"Category": "Streaming",
+	"CreatedBy": "Matthew French",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"Installed": false,
+	"Modules": [
+    {
+      "Name": "RTSPStreaming",
+      "Type": "Runtime",
+      "LoadingPhase": "PostEngineInit",
+      "WhitelistPlatforms": [ "Win64" ]
+    }
+	]
+}
